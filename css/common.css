@@ -1,0 +1,32 @@
+/*
+* @Author: 林染
+* @Date:   2018-02-08 09:22:04
+* @Last Modified by:   林染
+* @Last Modified time: 2018-10-21 10:22:43
+*/
+
+/******************清浮 居中*******************/
+.center {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+
+	width: 40%;
+	height: 60%;
+
+	margin: auto;
+}
+
+.clearfix {
+	zoom:1;
+}
+
+.clearfix:after {
+	display: block;
+	clear: both;
+	content: "";
+	visibility: hidden;
+	height: 0px;
+}
